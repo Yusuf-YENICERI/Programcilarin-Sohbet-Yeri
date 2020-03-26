@@ -168,7 +168,7 @@
 			<tr class="userRow">
 				<td class="userColumn"><img class="userPhoto" src="../../chatView/activeUsers/skype_user.png" alt="foto yok"></td>
 				<td class="userColumn"><section id="5" class="userName">Mustafa</section></td>
-				<td class="userColumn" style=""><section class="userOnline"><section class="userOnlineText">Online</section></section></td>
+				<td class="userColumn"><section class="userOnline"><section class="userOnlineText">Online</section></section></td>
 			</tr>
 		</table>
 	</section>

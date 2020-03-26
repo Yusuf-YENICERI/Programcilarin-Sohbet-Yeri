@@ -23,6 +23,10 @@ html, body{
 	align-items: stretch;
 }
 
+.userSection .userSectionWrapperTitle{
+	padding: .7%;
+}
+
 .userSection .userSectionWrapper{
 	padding: .7%;
 }

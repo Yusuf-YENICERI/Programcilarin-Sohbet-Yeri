@@ -28,7 +28,7 @@
 		}
 
 		function getIdFromClass(){
-			return this.childNodes[3].lastChild.id;
+			return this.id;
 		}
 		let _window = this;
 

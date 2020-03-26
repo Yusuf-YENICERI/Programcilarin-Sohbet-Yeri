@@ -61,7 +61,7 @@
 				let messageScreen = messageScreenClass[0];
 				
 				let profileName = "<?php echo $profileName ?>";
-				let message = '<section class="messageText"><table class="alignToRight"><tr><td><section class="profileMessageRight">' + text + '<section></td><td class="profileColumn"><section class="profilePhotoNameContainerRight"><table><tr><td align="right"><img class="profilePhoto" src="sil2.jpg"></td></tr><tr><td><span class="profileName">' + profileName + '</span></td></tr></table></section></td></tr></table></section>';
+				let message = '<section class="messageText"><table class="alignToRight"><tr><td><section class="profileMessageRight">' + text + '<section></td><td class="profileColumn"><section class="profilePhotoNameContainerRight"><table><tr><td align="right"><img class="profilePhoto" src="corina-rainer-9MGmejLX0BY-unsplash.jpg"></td></tr><tr><td><span class="profileName">' + profileName + '</span></td></tr></table></section></td></tr></table></section>';
 
 				messageScreen.innerHTML += message;
 
@@ -93,7 +93,7 @@
 				let messageScreen = messageScreenClass[0];
 				
 				let profileName = "<?php echo $namesurnameinshaALLAH ?>";
-				let message = '<section class="messageText"><table class="alignToLeft"><tr><td class="profileColumn"><section class="profilePhotoNameContainer"><table><tr><td align="right"><img class="profilePhoto" src="sil.jpg"></td></tr><tr><td><span class="profileName">' + profileName + '</span></td></tr></table></section></td><td><section class="profileMessage">' + text + '<section></td></tr></table></section>';
+				let message = '<section class="messageText"><table class="alignToLeft"><tr><td class="profileColumn"><section class="profilePhotoNameContainer"><table><tr><td align="right"><img class="profilePhoto" src="max-priess-JcpxUtkImA0-unsplash.jpg"></td></tr><tr><td><span class="profileName">' + profileName + '</span></td></tr></table></section></td><td><section class="profileMessage">' + text + '<section></td></tr></table></section>';
 				
 				messageScreen.innerHTML += message;
 

@@ -23,7 +23,7 @@
 	<script type="text/javascript">
 
 		function getNameFromClass(_this){
-			return _this.childNodes[3].childNodes[0].innerText;
+			return _this.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[1].childNodes[7].childNodes[1].childNodes[1].innerText;
 		}
 
 		function rootToOtherLocation(){
@@ -97,10 +97,10 @@
 		}
 
 		window.onload = function() {
-			addEventListenerToClass(getClass("userRow"), "click", rootToOtherLocation);
+			addEventListenerToClass(getClass("userChat"), "click", rootToOtherLocation);
 			
-			let objInterval = increaseScale("userSectionWrapper", 1.1, 1.1, 0.1, 0.1);
-			checkStatusRunFunction(objInterval, changeRotate, "userSectionWrapper");
+			let objInterval = increaseScale("userSectionWrapperTitle", 1.1, 1.1, 0.1, 0.1);
+			checkStatusRunFunction(objInterval, changeRotate, "userSectionWrapperTitle");
 
 			changeColor("userOnline", "red", function(_class, _color){if(_class.innerText == "Offline")
 						_class.style.backgroundColor = _color;});
@@ -116,7 +116,7 @@
 <body>
 
 	<section class="userSection">
-		<section class="userSectionWrapper">
+		<section class="userSectionWrapperTitle">
 			<header class="headerClass"><span class="moveinshaALLAH">A</span><span class="moveinshaALLAH">k</span><span class="moveinshaALLAH">t</span><span class="moveinshaALLAH">i</span><span class="moveinshaALLAH">f</span> <span class="moveinshaALLAH">K</span><span class="moveinshaALLAH">u</span><span class="moveinshaALLAH">l</span><span class="moveinshaALLAH">l</span><span class="moveinshaALLAH">a</span><span class="moveinshaALLAH">n</span><span class="moveinshaALLAH">ı</span><span class="moveinshaALLAH">c</span><span class="moveinshaALLAH">ı</span><span class="moveinshaALLAH">l</span><span class="moveinshaALLAH">a</span><span class="moveinshaALLAH">r</span></header>
 		</section>
 
@@ -162,12 +162,12 @@
 			}
 		}
 		if($id !== $_SESSION['id'])
-			echo '<section class="userSectionWrapper" id="'.$id.'">
+			echo '<section class="userSectionWrapper" >
 			<section class="userSectionItem">
 				<section class="userRow">
 					<section class="userRowItem" style="flex:.1"></section>
 					<section class="userRowItem" style="flex:1; align-self: center;">
-						<img  class="userPhoto" src="sil.jpg">
+						<img  class="userPhoto" src="charles-deluvio-s9yDh7vqxQ0-unsplash.jpg">
 					</section>
 					<section class="userRowItem" style="flex: .1"></section>
 					<section class="userRowItem" style="flex:2">
@@ -193,7 +193,7 @@
 								<p class="userTech">Bildiği teknolojiler: '.$technologies.'</p>
 							</section>
 							<section class="userRowItem" style="flex: 5">
-								<button class="userChat">Mesaj Gönder</button>
+								<button class="userChat" id="'.$id.'">Mesaj Gönder</button>
 							</section>
 						</section>
 					</section>

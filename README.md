@@ -11,7 +11,7 @@ Proje hedefi, yazılıma başlayan insanların doğrudan yardım alabileceği bi
 Uyarı: Bu proje pure php ile yazıldığından şu halinde(ne kadar yerine kadar önlem alınsada), elbetteki xss ve sql injection açıkları içerebilir. Lütfen bunu dikkate alınız!
 
 # Chatting Place of Programmers
-A site which is written with the help of ALLAH and written in php, that is where programmers can chat with each other.
+A site which is written with the HELP OF ALLAH and written in php, that is where programmers can chat with each other.
 
 This project is written with pure php(frontend and backend written without any framework from scratch) and it's the first project i have written after I learnt php.
 

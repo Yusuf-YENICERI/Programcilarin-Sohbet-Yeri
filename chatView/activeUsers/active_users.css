@@ -1,0 +1,86 @@
+html, body{
+	height: 100vh;
+	width: 100vw;
+	background-color: #dfe3eb;
+}
+
+.headerClass{
+
+	font-family: "segoe print";
+	padding-top: 4%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: 30pt;
+	color: #7689b5;
+	transform: scale(2);
+}
+
+.headerClass .moveinshaALLAH{
+	display: inline-block;
+}
+
+.userSection{
+	display: flex;
+	flex-direction: column;
+}
+
+.userSection .userTable{
+	width: 28vw;//25
+	border-collapse: collapse;
+	transform: scale(1.1);
+}
+
+.userSection .userTable .userRow{
+	background-color: #acb5c2;
+	box-shadow: 0px -11px #c3ccd9;
+	border-radius: 20%;
+}
+
+.userSection .userTable .userRow .userColumn{
+	padding-top: 10%;
+	display: inline-block;
+	padding: 1.5%;
+}
+
+.userSection .userTable .userRow .userColumn .userPhoto{
+	width: 4vw;
+	height: 6vh;
+	display: inline-block;
+	border-radius: 30%;
+}
+
+.userSection .userTable .userRow .userColumn .userName{
+	font-family: "MV Boli";
+	padding-left: 1%;
+	color: #067dbd;
+	width: 4vw;
+}
+
+.userSection .userTable .userRow .userColumn .userOnline{
+	width: 13vw;
+	background-color: green; 
+	padding:4%;
+	border-radius: 40%;
+}
+
+.userSection .userTable .userRow .userColumn .userOnline .userOnlineText{
+	text-align: center;
+	font-family: Impact;
+	color:white;
+}
+
+.userSection .userTable .userRow .userColumn .notificationinshaALLAH{
+	background-color: #7689b5;
+	border-radius:5px;
+	padding: 15%;
+	width: 40px;
+	margin-left: 77%;
+	font-size: 30pt;
+	color:white;
+	display: block;
+	text-align: center;
+}
+
+.userSection .userTable .userRowSpace .userAddSpace{
+	padding-bottom: 8%;
+}

@@ -1,0 +1,945 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"check",
+				"checkForUser"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"las",
+				"lastName"
+			],
+			[
+				"chec",
+				"check"
+			],
+			[
+				"first",
+				"firstName"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"frot",
+				"formTableTr"
+			],
+			[
+				"fromt",
+				"formTableTr"
+			],
+			[
+				"fro",
+				"formTableTr"
+			],
+			[
+				"from",
+				"formTableTr"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius\tproperty"
+			],
+			[
+				"border-",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"border-top",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"border-lef",
+				"border-top-left-radius\tproperty"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"make",
+				"makeTableAddConstraint"
+			],
+			[
+				"arr",
+				"arrValues"
+			],
+			[
+				"id",
+				"idFrom"
+			],
+			[
+				"oto",
+				"oto_big_id"
+			],
+			[
+				"print",
+				"printTable"
+			],
+			[
+				"fore",
+				"foreach\tforeach …"
+			],
+			[
+				"ar",
+				"arrCondition"
+			],
+			[
+				"t",
+				"tableName"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"delete",
+				"deleteData"
+			],
+			[
+				"update",
+				"updateTable"
+			],
+			[
+				"filter",
+				"filter"
+			],
+			[
+				"all",
+				"allColumns"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"refe",
+				"referencedPrimaryKey"
+			],
+			[
+				"Tr",
+				"tryf"
+			],
+			[
+				"forei",
+				"foreignKey"
+			],
+			[
+				"constr",
+				"constraintName"
+			],
+			[
+				"table",
+				"tableName"
+			],
+			[
+				"append",
+				"appendArrayElementsWithComma"
+			],
+			[
+				"appa",
+				"appendArrayElementsWithComma"
+			],
+			[
+				"set",
+				"setThing"
+			],
+			[
+				"count",
+				"counter"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"dele",
+				"deleteUsers"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"al",
+				"allColumns"
+			],
+			[
+				"tabl",
+				"tableName"
+			],
+			[
+				"add",
+				"addNewUser"
+			],
+			[
+				"extr",
+				"extractInsertingData"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"pus",
+				"array_push"
+			],
+			[
+				"new",
+				"new_arr"
+			],
+			[
+				"ip",
+				"ip_address"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"xml",
+				"xmlHttp"
+			],
+			[
+				"node",
+				"nodeValue"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"get",
+				"getId"
+			],
+			[
+				"onkey",
+				"onkeyup\tAttr"
+			],
+			[
+				"ele",
+				"element_name"
+			],
+			[
+				"lib",
+				"libxml_get_errors"
+			],
+			[
+				"simple",
+				"simplexml_load_file"
+			],
+			[
+				"FILTER",
+				"FILTER_SANITIZE_URL"
+			],
+			[
+				"ses",
+				"session_encode"
+			],
+			[
+				"COO",
+				"cookie_name"
+			],
+			[
+				"tar",
+				"target_file"
+			],
+			[
+				"tmp",
+				"tmp_name"
+			],
+			[
+				"ins",
+				"inshaALLAH"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"image",
+				"imageFileType"
+			],
+			[
+				"_",
+				"_FILES"
+			],
+			[
+				"upload",
+				"uploadOk"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"file",
+				"fileUploaded"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"border-ra",
+				"border-radius\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"col",
+				"coloor"
+			],
+			[
+				"tab",
+				"table-row\tdisplay"
+			],
+			[
+				"ta",
+				"table-column\tdisplay"
+			],
+			[
+				"inli",
+				"inline-flex\tdisplay"
+			],
+			[
+				"inilne",
+				"inline-block\tdisplay"
+			],
+			[
+				"border-s",
+				"border-style\tproperty"
+			],
+			[
+				"border-b",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"border-t",
+				"border-top-right-radius\tproperty"
+			],
+			[
+				"border-rad",
+				"border-top-left-radius\tproperty"
+			],
+			[
+				"bor",
+				"border\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"line",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<meta charset=\"utf-8\">\n<head>\n\t<style type=\"text/css\">\n\n\t\thtml, body{\n\t\t\theight: 100%;\n\t\t}\n\n\t\th2{\n\t\t\tfont-family: \"segoe print\";\n\t\t\tfont-size: 30pt;\n\t\t\t\tcolor: #7689b5;\n\t\t}\n\n\t\t.outer{\n\t\t\theight: 60%;\n\t\t\t//background-color: black;\n\t\t\tpadding-left: 33%;\n\t\t\tpadding-top: 7%;\n\t\t}\n\n\t\t.signin{\n\t\t\tbackground-color: #acb5c2;\n\t\t\twidth: 55%;\n\t\t\theight: 90%;\n\t\t\tborder-radius: 20%;\n\t\t}\n\n\t\t.formTable{\n\t\t\tpadding-left: 14%;\n\t\t\tpadding-top: 8%;\n\t\t}\n\n\t\t.formTableTd{\n\t\t\tpadding-top: 40%;\n\t\t}\n\n\t\t.formTableTr{\n\t\t}\n\n\t\tinput[type=text]{\n\t\t\tborder-radius: 10px 10px 10px 10px;\n\t\t\theight: 30px;\n\t\t\twidth: 160%;\n\t\t\tpadding-left: 5%;\n\t\t\tbackground-color: #758194;\n\t\t\tcolor:white;\n\t\t}\n\n\t\tinput[type=submit]{\n\t\t\tborder-radius: 10px 10px 10px 10px;\n\t\t\tborder-color:#0061ff; \n\t\t\theight: 35px;\n\t\t\tbackground-color: #0061ff;\n\t\t\tfont-family: gabriola;\n\t\t\tfont-size:17pt;\n\t\t\tcolor:white;\n\t\t}\n\n\t\t.formSubmit{\n\t\t\tpadding-left: 43%;\n\t\t}\n\n\t\t.formTableText{\n\t\t\tcolor:#004cc7;\n\t\t\tfont-family: gabriola;\n\t\t\tfont-size: 20pt;\n\t\t}\n\n\t\t.formTableInputText{\n\t\t\tpadding-left: 5%;\n\t\t}\n\n\t\t::placeholder{;\n\t\t};\n\n\t</style>\t\n\t<title>Sohbete Giriş Yap</title>\n</head>\n<body>\n\n\t<header ><h2 align=\"center\">Sohbete Giriş Yap!</h2></header>\n\t<section class = \"outer\">\n\t\t<section class=\"signin\">\n\t\t\t<form action=\"../chatController/login.php\" method=\"post\">\n\t\t\t\t<table class = \"formTable\">\n\t\t\t\t\t<tr class=\"formTableTr\">\n\t\t\t\t\t\t<td class=\"formTableTd\"><td class=\"formTableText\">İsim: </td><td class=\"formTableInputText\"><input type=\"text\" name=\"isim\" placeholder=\"isim..\" ></td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr class=\"formTableTr\">\n\t\t\t\t\t\t<td class=\"formTableTd\"><td class=\"formTableText\">Soyisim: </td><td class=\"formTableInputText\"><input type=\"text\" name=\"soyisim\" placeholder=\"soy isim..\" ></td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr class=\"formTableTr\">\n\t\t\t\t\t\t<td class=\"formTableTd\"><td class=\"formTableText\">Email: </td><td class=\"formTableInputText\"><input type=\"text\" name=\"email\" placeholder=\"email..\" ></td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\t\t\t\t<section class=\"formSubmit\"><input type=\"submit\" name=\"submit\" value=\"Giriş Yap\"></section>\n\t\t\t</form>\n\t\t</section>\n\t</section>\n</body>\n</html>",
+			"file": "chatView/sign_in.html",
+			"file_size": 2249,
+			"file_write_time": 132094403726426249,
+			"settings":
+			{
+				"buffer_size": 2142,
+				"line_ending": "Windows",
+				"name": "sign_in.html"
+			}
+		},
+		{
+			"file": "chatController/login.php",
+			"settings":
+			{
+				"buffer_size": 1765,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "sign_up.html",
+			"file": "chatView/sign_up.html",
+			"file_size": 12,
+			"file_write_time": 132094340562320214,
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Windows",
+				"name": "sign_up.html"
+			}
+		},
+		{
+			"file": "chatDb/users.php",
+			"settings":
+			{
+				"buffer_size": 2858,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/dbClasses/signUp.html",
+		"/C/xampp/htdocs/dbClasses/login.html",
+		"/C/xampp/htdocs/dbClasses/notesDb.txt",
+		"/C/xampp/htdocs/chatDb/users.php",
+		"/C/xampp/htdocs/chatDb/id1_id2_oto.php",
+		"/C/xampp/htdocs/chatDb/oto_table.php",
+		"/C/xampp/htdocs/chatDb/db.php",
+		"/C/xampp/htdocs/dbClasses/db.php",
+		"/C/xampp/htdocs/chatDb/CommonFunctions.php",
+		"/C/xampp/htdocs/chatDb/message.php",
+		"/C/xampp/htdocs/chat/chatController/login.php",
+		"/C/xampp/htdocs/class/try.php",
+		"/C/xampp/htdocs/class/message.php",
+		"/C/xampp/htdocs/chatDb/try.php",
+		"/C/xampp/htdocs/chatDb/base.php",
+		"/C/xampp/htdocs/chat/filter.php",
+		"/C/xampp/htdocs/chat/chatProject.sublime-project",
+		"/C/xampp/htdocs/chatDb/chatDb.php",
+		"/C/Users/Hasan/Downloads/Sublime Text Build 3207 x64/Data/Packages/User/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/chatDb/filterInputs/filter.php",
+		"/C/Users/Hasan/Downloads/Sublime Text Build 3207 x64/Data/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/xampp/htdocs/dbClasses/users.php",
+		"/C/xampp/htdocs/ajax/links.xml",
+		"/C/xampp/htdocs/ajax/getcd.php",
+		"/C/xampp/htdocs/ajax/different.html",
+		"/C/xampp/htdocs/ajax/ajaxVote.php",
+		"/C/xampp/htdocs/ajax/ajaxVote.html",
+		"/C/xampp/htdocs/ajax/livesearch.php",
+		"/C/xampp/htdocs/ajax/ajaxLiveSearch.html",
+		"/C/xampp/htdocs/ajax/ajaxCD.html",
+		"/C/xampp/htdocs/ajax/votes.txt",
+		"/C/xampp/htdocs/ajax/gethint.php",
+		"/C/xampp/htdocs/ajax/cd_catalog.xml",
+		"/C/xampp/htdocs/ajax/getUser.php",
+		"/C/xampp/htdocs/db/selectTable.php",
+		"/C/xampp/htdocs/ajax/ajaxDatabase.html",
+		"/C/xampp/htdocs/ajax/ajax.html",
+		"/C/xampp/htdocs/xml/read2.xml",
+		"/C/xampp/htdocs/xml/xmlDom.php",
+		"/C/xampp/htdocs/xml/xmlExpat.php",
+		"/C/xampp/htdocs/xml/getNodes.php",
+		"/C/xampp/htdocs/xml/read.xml",
+		"/C/xampp/htdocs/xml/printErrors.php",
+		"/C/xampp/htdocs/xml/xmlParser.php",
+		"/C/xampp/htdocs/xml/gethint.php",
+		"/C/xampp/htdocs/xml/ajax.html",
+		"/C/xampp/htdocs/sessions/getSessions.php",
+		"/C/xampp/htdocs/db/route.php",
+		"/C/xampp/htdocs/db/update.php",
+		"/C/xampp/htdocs/db/delete.php",
+		"/C/xampp/htdocs/db/whatReturn.php",
+		"/C/xampp/htdocs/db/connectDb.php",
+		"/C/xampp/htdocs/filters/advancedFilter.php",
+		"/C/xampp/htdocs/sessions/session.php",
+		"/C/xampp/htdocs/filters/filters.php",
+		"/C/xampp/htdocs/filters/sanitizeHtmlTag.php",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/htdocs/tries/header.php",
+		"/C/xampp/htdocs/tries/footer.php",
+		"/C/xampp/htdocs/cookies/deleteCookie.php",
+		"/C/xampp/htdocs/cookies/checkForCookies.php",
+		"/C/xampp/htdocs/cookies/cookies.php",
+		"/C/xampp/htdocs/readingFiles/fileUploads/upload.php",
+		"/C/xampp/htdocs/readingFiles/fileUploads/upload.html",
+		"/C/xampp/htdocs/readingFiles/readFiles.php",
+		"/C/xampp/htdocs/yeni.php",
+		"/C/Users/Hasan/Desktop/php/yeni.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"acb5c2",
+			" \n",
+			"; ",
+			";\n",
+			"\t\t\n",
+			"makeTable",
+			"append2",
+			"arrCondition",
+			"insertDatas",
+			"filter",
+			"appendArra",
+			"CommonFunctions",
+			"catch",
+			"try",
+			"insertData",
+			"print_r",
+			"addNewuser",
+			"insertData",
+			"db",
+			"new_arr",
+			"Db",
+			"\t\t\t\t",
+			"db",
+			"insertData"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "chatView/sign_in.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sign_in.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1064.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chatController/login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								617,
+								617
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chatView/sign_up.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"auto_name": "sign_up.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "chatDb/users.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1711,
+								1715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chatProject.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"14":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"15":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"19":
+				{
+					"group": 1,
+					"index": 0
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"43":
+				{
+					"group": 0,
+					"index": 3
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

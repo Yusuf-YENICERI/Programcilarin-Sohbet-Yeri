@@ -1,0 +1,138 @@
+
+		html, body{
+			height: 100%;
+			background-color: #dfe3eb;
+		}
+
+		h2{
+			font-family: "segoe print";
+			font-size: 30pt;
+			color: #7689b5;
+		}
+
+		.outer{
+			height: 100%;
+			padding-left: 33%;
+			padding-top: 7%;
+		}
+
+		.signin{
+			background-color: #acb5c2;
+			width: 55%;
+			height: 90%;
+			border-radius: 20%;
+			box-shadow: -8px -8px #c3ccd9;
+		}
+
+		.formTable{
+			padding-left: 14%;
+			padding-top: 8%;
+		}
+
+		.formTableTd{
+			padding-top: 35%;
+		}
+
+		.formTableTr{
+		}
+
+		input[type=text]{
+			border-radius: 10px 10px 10px 10px;
+			height: 30px;
+			width: 160%;
+			padding-left: 5%;
+			background-color: #758194;
+			color:white;
+			cursor: pointer;
+		}
+
+		input[type=submit]{
+			border-radius: 10px 10px 10px 10px;
+			border-color:#0061ff; 
+			height: 35px;
+			background-color: #0061ff;
+			font-family: gabriola;
+			font-size:17pt;
+			color:white;
+		}
+
+		.formSubmit{
+			padding-left: 43%;
+		}
+
+		.formTableText{
+			color:#004cc7;
+			font-family: gabriola;
+			font-size: 20pt;
+		}
+
+		.formTableInputText{
+			position: relative;
+			padding-left: 5%;
+
+		}
+
+		::placeholder{;
+		};
+
+		.formTableError{
+		}
+
+		.formTableTextError{
+			color:red;
+			font-family: "Calibri Light Italic";
+			font-size: 13pt;
+			padding-left: 4%;
+			white-space: nowrap;
+		}
+
+		.formTableTrError{
+		}
+
+		.formTableInputText .popup{
+			position: absolute;
+			visibility: hidden;
+			background-color: #dfe3eb;
+			color:green;
+			border-radius: 40%;
+			padding: 20%;
+			bottom: 90%;
+			left: 35%;
+			width: 90%;
+			white-space: nowrap;
+			cursor: pointer;
+			font-weight: lighter;
+		}
+
+		.formTableInputText .popup::before{
+			position: absolute;
+			border-style: solid;
+			border-width: 5px;
+			border-color: #dfe3eb transparent transparent #dfe3eb;
+			top:98%;
+			left: 30%;
+			content: "";
+		}
+
+		@keyframes toUp{
+			from{height: 0%; opacity: 0;}
+			to{height: 27%; opacity: 1;}
+		}
+
+		.headerClass{
+			width: 100%;
+		}
+
+		.headerClass .headerClassSignIn{
+			text-align: center;
+			padding-left: 33%;
+			text-shadow: -3px 3px #d3d9e8;
+			//width: 10%;
+			//width: 50%;
+		}
+
+		.headerClass .headerClassSignUp{
+			text-align: right;
+			color:#004cc7;
+			width: 30%;
+		}

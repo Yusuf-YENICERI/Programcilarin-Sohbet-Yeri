@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<head>
+
+	<script type="text/javascript" src="sign.js"></script>
+
+	<script type="text/javascript">
+		window.onload = function(){
+			let objInterval = increaseScale("h2Header", 2, 2, 0.1, 0.1);
+			checkStatusRunFunction(objInterval, changeRotate, "h2Header");
+			setInterval(()=>{newObjInterval = increaseScale("enter", 4, 4, 1, 1, decreaseScale, "enter", 4, 4)}, 5000);
+
+			if(getUrlParams() == "error"){
+				changeTheClass(getClass("formTableTrError"), "display", "");
+				changeTheClass(getClass("formTableTd"), "padding-top", "30%");
+			}
+			else{
+				changeTheClass(getClass("formTableTrError"), "display", "none");
+				changeTheClass(getClass("formTableTd"), "padding-top", "40%");
+			}
+		}
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="sign.css">
+		
+	<title>Sohbete Giriş Yap</title>
+
+</head>
+<body>
+
+	<header >
+		<table align="center" class="headerClass">
+			<tr>
+				<td class="headerClassSignIn"><h2 id="h2Header" >Sohbete Giriş Yap!</h2></td>
+				<td class="headerClassSignUp"><a href="sign_up.html" >Durma Kaydol!</a></td>
+			</tr>
+		</table>
+	</header>
+	<section class = "outer">
+		<section class="signin">
+			<form action="../../chatController/login/sign_in.php" method="post">
+				<table class = "formTable">
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">İsim: </td><td class="formTableInputText"><input type="text" name="isim" placeholder="isim.." ></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Soyisim: </td><td class="formTableInputText"><input type="text" name="soyisim" placeholder="soy isim.." ></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Email: </td><td class="formTableInputText"><input type="text" name="email" placeholder="email.." ></td>
+						</td>
+					</tr>
+					<tr class="formTableTrError">
+						<td class="formTableTd">
+							<td class="formTableTextError" colspan="2">Girdiğiniz bilgiler yanlış!</td>
+						</td>
+					</tr>
+				</table>
+				<section class="formSubmit"><input id="enter" type="submit" name="submit" value="Giriş Yap"></section>
+			</form>
+		</section>
+	</section>
+</body>
+</html>

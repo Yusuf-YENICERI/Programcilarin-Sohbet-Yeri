@@ -1,0 +1,156 @@
+html, body{
+	height: 100vh;
+	width: 100vw;
+	background-color: #dfe3eb;
+}
+
+.headerClass{
+	font-family: "segoe print";
+	text-align: center;
+	font-size: 30pt;
+	color: #7689b5;
+	transform: scale(2);
+}
+
+.headerClass .moveinshaALLAH{
+	display: inline-block;
+}
+
+.userSection{
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	align-items: stretch;
+}
+
+.userSection .userSectionWrapper{
+	padding: .7%;
+}
+
+.userSection .userSectionItem{
+	box-shadow: -10px -11px #c3ccd9;
+	border-radius: 15px;
+	background-color: #8295c2;
+	
+}
+
+.userSection .userSectionItem .userRow{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	//box-shadow: 0px -11px #c3ccd9;
+	border-radius: 20%;
+}
+
+.userSection .userSectionItem .userRow .userRowItem{
+
+}
+
+.userSection .userSectionItem .userRow .userRowItem .userPhoto{
+	align-self: center;
+	width: 7vw;
+	height: 12vh;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.userSection .userSectionItem .userRow .userRowItem .userLangHeader{
+	font-size: 15pt;
+	font-family: 'Orbitron', sans-serif;
+	color: #a700c4;
+}
+
+.userSection .userSectionItem .userRow .userRowItem .userLang{
+	display: flex;
+	justify-content: center;
+	font-size: 15pt;
+	font-family: 'Orbitron', sans-serif;
+	background-color: #c815e8;
+	margin-top: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 10px;
+	color: white;
+}
+
+.userSection .userSectionItem .userRow .userColumn{
+	display: flex;
+	flex-direction: column;
+	//box-shadow: 0px -11px #c3ccd9;
+	//border-radius: 20%;
+}
+
+.userSection .userSectionItem .userRow .userRowItem .userColumn .userName{
+	font-family: 'Saira Stencil One', cursive;
+	font-size: 15pt;
+	color: white;
+}
+.userSection .userSectionItem .userRow .userRowItem .userColumn .userOnline{
+	font-family: 'Turret Road', cursive;
+	font-size: 15pt;
+	background-color: green;
+	width: 3vw;
+	text-align: center;
+	color: white;
+	border-radius: 6px;
+}
+
+.userSection .userSectionItem .userRow .userRowItem .userRow .userRowItem .userTech{
+	font-size: 15pt;
+	color: #defa70;
+	font-family: 'Bangers', cursive;
+}
+
+.userSection .userSectionItem .userRow .userRowItem .userRow .userRowItem .userChat{
+
+
+    font-family: 'Luckiest Guy', cursive;
+
+//    font-family: 'Poiret One', cursive;
+
+
+	background-color: #2bd95a;
+	color: #2a3f40;
+	border-color: green;
+	border-radius: 5px;
+	font-size: 15pt;
+}
+
+
+/////////////////////
+
+.userSection .userTable .userRow .userColumn .userName{
+	font-family: "MV Boli";
+	padding-left: 1%;
+	color: #067dbd;
+	width: 4vw;
+}
+
+.userSection .userTable .userRow .userColumn .userOnline{
+	width: 13vw;
+	background-color: green; 
+	padding:4%;
+	border-radius: 40%;
+}
+
+.userSection .userTable .userRow .userColumn .userOnline .userOnlineText{
+	text-align: center;
+	font-family: Impact;
+	color:white;
+}
+
+.userSection .userTable .userRow .userColumn .notificationinshaALLAH{
+	background-color: #7689b5;
+	border-radius:5px;
+	padding: 15%;
+	width: 40px;
+	margin-left: 77%;
+	font-size: 30pt;
+	color:white;
+	display: block;
+	text-align: center;
+}
+
+/*.userSection .userTable .userRowSpace .userAddSpace{
+	padding-bottom: 8%;
+}*/

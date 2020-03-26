@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Aktif Kullanıcılar</title>
+	<link rel="stylesheet" type="text/css" href="active_users.css">
+	<script src="active_users.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			addEventListenerToClass(getClass("userRow"), "click", rootToOtherLocation);
+			
+			let objInterval = increaseScale("activeUsers", 1.1, 1.1, 0.1, 0.1);
+			checkStatusRunFunction(objInterval, changeRotate, "activeUsers");
+		}
+
+	</script>
+</head>
+<body>
+
+	<header class="headerClass">Aktif Kullanıcılar</header>
+
+	<section class="userSection">
+		<table class="userTable" id="activeUsers">
+			<tr class="userRow">
+				<td class="userColumn"><img class="userPhoto" src="asd.jpg" alt="foto yok"></td>
+				<td class="userColumn"><section id="1" class="userName">Ahmet Deneyen</section></td>
+				<td class="userColumn" style=""><section class="userOnline"><section class="userOnlineText">Online</section></section></td>
+			</tr>
+			<tr class="userRowSpace"><td class="userAddSpace"></td></tr>
+			<tr class="userRow">
+				<td class="userColumn"><img class="userPhoto" src="skype_user.png" alt="foto yok"></td>
+				<td class="userColumn"><section id="5" class="userName">Mustafa</section></td>
+				<td class="userColumn" style=""><section class="userOnline"><section class="userOnlineText">Online</section></section></td>
+			</tr>
+		</table>
+	</section>
+</body>
+</html>

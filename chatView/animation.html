@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		html, body{
+			height: 100%;
+			padding: 20%;
+		}
+
+		div{
+			//transform: translate(50px, 100px);
+			//transform = scale(2,3);
+			background-color: black;
+			width: 20%;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function id(_id){
+			return document.getElementById(_id);
+		}
+
+		function changeRotate(){
+			//id('man').style.transform = "rotate(90deg)";
+
+			let w = 1;
+			let h = 1;
+			function increase(){
+				if(w < 15 && h < 15)
+					id('man').style.transform = "scale("+w.toString() + "," + h.toString() + ")";
+				w++;
+				h++;
+
+			}
+			window.setInterval(increase, 20);
+		}
+
+		function fixIt(){
+			//id('man').style.transform = "rotate(120deg)";			
+		}
+	</script>
+
+</head>
+<body>
+<div id='man'  onmouseleave="fixIt()" onmouseup="changeRotate()">hey</div>
+</body>
+</html>

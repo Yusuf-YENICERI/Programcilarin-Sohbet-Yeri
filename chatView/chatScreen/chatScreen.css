@@ -1,0 +1,112 @@
+html, body{
+	height: 100vh;
+	width: 100vw;
+	background-color: #dfe3eb;
+}
+
+.messageScreen{
+	width: 90vw;
+	padding-bottom: 20%;
+}
+
+.messageScreen .messageText{
+	border-radius: 90px;
+	padding: 1%;
+}
+
+@keyframes smoothtransitioninshaALLAH{
+	from{background-color:#fcba03;}
+	to{}
+}
+
+.messageScreen .messageText .alignToRight{
+	margin-left: auto;
+	margin-right: -7%;
+	width: 59.8vw;
+}
+
+.messageScreen .messageText .alignToLeft{
+	margin-left: 2%;
+}
+
+.messageScreen .messageText .profileColumn{
+	width: 7vw;
+}
+
+.messageScreen .messageText .profileColumn .profilePhotoNameContainer{
+	background-color: #e6fce9;
+	padding: 18%;
+	padding-left: 7%;
+	border-radius: 50px;
+}
+
+.messageScreen .messageText .profileColumn .profilePhotoNameContainerRight{
+	background-color: #bacdf5;
+	padding: 16%;
+	padding-left: 7%;
+	border-radius: 50px;
+}
+
+.messageScreen .messageText .profileColumn .profilePhotoNameContainer .profilePhoto{
+	max-width: 5vw;
+	border-radius: 50%;
+}
+
+.messageScreen .messageText .profileColumn .profilePhotoNameContainer .profileName{
+	display: inline-block;
+	padding-left: 15%;
+	color: black;
+	font-family: "segoe print"
+}
+
+.messageScreen .messageText .profileColumn .profilePhotoNameContainerRight .profilePhoto{
+	max-width: 5vw;
+	border-radius: 50%;
+}
+
+.messageScreen .messageText .profileColumn .profilePhotoNameContainerRight .profileName{
+	display: inline-block;
+	padding-left: 15%;
+	color: black;
+	font-family: "segoe print"
+}
+
+.messageScreen .messageText .profileMessage{
+	display: inline-block;
+	//padding-top: 2%; 
+	width: 50vw;
+	padding: 2%;
+	//height: 8vh;
+	background-color: #50ba5e;
+	text-align: center;
+	border-radius: 90px;
+	font-family: "Comic Sans MS";
+	color: black;
+}
+
+.messageScreen .messageText .profileMessageRight{
+	display: inline-block; 
+	width: 50vw;
+	padding: 2%;
+	background-color: #678acf;
+	text-align: center;
+	border-radius: 90px;
+	font-family: "Comic Sans MS";
+	margin-right: 90%;
+	color: white;
+}
+
+.messageContainer{
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	background-color: #dfe3eb;
+	height: 10vh;
+}
+
+.messageContainer .message{
+	width: 97.6vw;
+	height: 10vh;
+	border-radius: 10%;	
+	background-color: #b2bcd1
+}

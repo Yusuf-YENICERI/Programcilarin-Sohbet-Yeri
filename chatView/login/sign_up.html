@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<head>
+
+	<script type="text/javascript" src="sign.js"></script>
+
+	<script type="text/javascript">
+		window.onload = function(){
+			let objInterval = increaseScale("h2Header", 2, 2, 0.1, 0.1);
+			checkStatusRunFunction(objInterval, changeRotate, "h2Header");
+			setInterval(()=>{newObjInterval = increaseScale("enter", 4, 4, 1, 1, decreaseScale, "enter", 4, 4)}, 5000);
+
+			if(getUrlParams() == "error"){
+				changeTheClass(getClass("formTableTrError"), "display", "");
+				changeTheClass(getClass("formTableTd"), "padding-top", "24%");
+			}
+			else{
+				changeTheClass(getClass("formTableTrError"), "display", "none");
+				changeTheClass(getClass("formTableTd"), "padding-top", "30%");
+			}
+		}
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="sign.css">
+		
+	<title>Sohbete Giriş Yap</title>
+
+</head>
+<body>
+
+	<header ><h2 id="h2Header" align="center">Durma Kaydol!</h2></header>
+	<section class = "outer">
+		<section class="signin">
+			<form action="../../chatController/login/sign_up.php" method="post">
+				<table class = "formTable">
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">İsim: </td><td class="formTableInputText"><input type="text" name="isim" placeholder="isim.." ></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Soyisim: </td><td class="formTableInputText"><input type="text" name="soyisim" placeholder="soy isim.." ></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Yaş: </td><td class="formTableInputText"><input type="text" name="yas" placeholder="yas.." onkeyup="checkAge(this.value)"><span onclick="changeTheClass(getClass('popup'),'visibility','hidden');changeTheClass(getClass('popup'),'animation','',0);" class="popup">Yaş sayı olmalı!</span></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Email: </td><td class="formTableInputText"><input type="text" name="email" placeholder="email.." onkeyup="checkEmail(this.value);"><span onclick="changeTheClass(getClass('popup'),'visibility','hidden');changeTheClass(getClass('popup'),'animation','', 1);" class="popup">Yanlış email formatı!</span></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Bilinen Diller: </td><td class="formTableInputText"><input type="text" name="languages" placeholder="diller.." ><span onclick="changeTheClass(getClass('popup'),'visibility','hidden');changeTheClass(getClass('popup'),'animation','', 1);" class="popup">Yanlış email formatı!</span></td>
+						</td>
+					</tr>
+					<tr class="formTableTr">
+						<td class="formTableTd">
+							<td class="formTableText">Bilinen Teknolojiler: </td><td class="formTableInputText"><input type="text" name="technologies" placeholder="teknolojiler.." ><span onclick="changeTheClass(getClass('popup'),'visibility','hidden');changeTheClass(getClass('popup'),'animation','', 1);" class="popup">Yanlış email formatı!</span></td>
+						</td>
+					</tr>
+					<tr class="formTableTrError">
+						<td class="formTableTd">
+							<td class="formTableTextError" colspan="2">Girilen bilgiler hatalıydı,<br>tekrar kontrol et!</td>
+						</td>
+					</tr>
+				</table>
+				<section class="formSubmit"><input id="enter" type="submit" name="submit" value="Kayıt Ol"></section>
+			</form>
+		</section>
+	</section>
+</body>
+</html>

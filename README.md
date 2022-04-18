@@ -2,7 +2,7 @@
 
 
 # Programcilarin-Sohbet-Yeri
-Programcıların Sohbet Edebileceği ALLAH'IN yardımıyla php ile yazılmış bir site
+Programcıların Sohbet Edebileceği Biiznillah php ile yazılmış bir site
 
 Bu proje pure php ile yazılmış(frontend ve backend herhangi bir framework olmadan tamamen sıfırdan), php öğrendikten sonra yazdığım ilk projedir elhamdülillah.
 
